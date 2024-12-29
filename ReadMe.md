@@ -13,20 +13,24 @@ https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-rasp
 
 ### GPIO
 https://projects.raspberrypi.org/en/projects/physical-computing/1
+https://github.com/adafruit/Adafruit_Python_GPIO/blob/master/Adafruit_GPIO/I2C.py
 
 
 ### RTC circuit
 https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi?view=all
+https://www.instructables.com/Interfacing-DS1307-I2C-RTC-With-Arduino/
 
 
 ### NTP Server
 https://rishabhdevyadav.medium.com/how-to-install-ntp-server-and-client-s-on-ubuntu-18-04-lts-f0562e41d0e1
+https://www.ntppool.org/sv/zone/se
 
 
 ### NTP Client
 https://forums.raspberrypi.com/viewtopic.php?t=308207
 https://askubuntu.com/questions/254826/how-to-force-a-clock-update-using-ntp
 https://www.baeldung.com/linux/sync-time-with-network
+https://stackoverflow.com/questions/67233945/syncing-local-computer-clock-to-ntp-time
 
 
 ### Display TFT 0.96"
@@ -34,6 +38,10 @@ https://www.mouser.com/datasheet/2/1398/Soldered_333099-3395096.pdf?srsltid=AfmB
 https://github.com/RUDEWORLD/Pi5OLED/blob/14601d2e8573b905423d541818ee103462035a53/INSTALL%20I2C%20OLED%20ON%20Pi5%20BOOKWORM.md
 https://github.com/SolderedElectronics/Soldered-OLED-Display-Arduino-Library
 https://www.recantha.co.uk/blog/?p=18463
+
+
+### Python
+https://docs.python.org/3/library/datetime.html#datetime.timedelta.microseconds
 
 
 ## Software dependencies

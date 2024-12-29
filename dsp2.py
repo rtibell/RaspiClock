@@ -24,7 +24,7 @@ disp.begin()
 disp.clear()
 disp.display()
 led = LED(20)
-led.on()
+led.off()
 
 # Create blank image for drawing.
 # Make sure to create image with mode '1' for 1-bit color.
@@ -43,8 +43,30 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 # Move left to right keeping track of the current x position for drawing shapes.
 x = 0
 
+led.on()
+time.sleep(4)
+led.off()
+
+time.sleep(0.2)
+led.on()
 time.sleep(2)
 led.off()
+
+time.sleep(0.5)
+led.on()
+time.sleep(1)
+led.off()
+
+time.sleep(0.5)
+led.on()
+time.sleep(0.5)
+led.off()
+
+time.sleep(0.5)
+led.on()
+time.sleep(0.25)
+led.off()
+
 
 # Load default font.
 font = ImageFont.load_default()
@@ -64,6 +86,8 @@ while True:
     del2 = now.ntp_now() - dt1
     if (del2.microseconds > 50000):
         led.on()
+        time.sleep(0.5)
+        led.off()
     line4 = f'{str(del2)}'
     line5 = f'{str(del1)}' 
 
@@ -77,4 +101,3 @@ while True:
     disp.image(image)
     disp.display()
     time.sleep(5)
-    led.off()

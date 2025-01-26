@@ -40,6 +40,14 @@ https://github.com/SolderedElectronics/Soldered-OLED-Display-Arduino-Library
 https://www.recantha.co.uk/blog/?p=18463
 
 
+### Display TFT 2.0"
+https://github.com/adafruit/Adafruit_CircuitPython_BusDevice
+https://penzu.com/public/e80c5c41
+https://raspberrypi.stackexchange.com/questions/104846/how-to-connect-st7789-lcd-to-spi-bus-1-as-2nd-screen
+https://github.com/Zeroji/st7789v/blob/master/README.md
+https://github.com/pimoroni/st7789-python
+
+
 ### Python
 https://docs.python.org/3/library/datetime.html#datetime.timedelta.microseconds
 
